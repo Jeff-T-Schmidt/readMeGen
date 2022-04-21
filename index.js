@@ -34,13 +34,18 @@ inquirer
         name: "usage",
     },
     {
+        type: "input",
+        message: "How do you execute your proogram?",
+        name: "execute",
+    },
+    {
         type: "list",
         message: "Choose a license for your application:",
-        choices: [  " [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
-                    " [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
-                    " [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
-                    " [![License: BSD 3](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
-                ],
+        choices: [" [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+            " [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+            " [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+            " [![License: BSD 3](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+        ],
         name: "license",
     },
     {
@@ -48,11 +53,11 @@ inquirer
         message: "What is your email address?",
         name: "email",
     },
-        // {
-        //     type: "list",
-        //     message: "List any dependancies that need to be installed:",
-        //     name: "dependancies",
-        // },
+    {
+        type: "input",
+        message: "What are your test instructions?",
+        name: "test",
+    },
 
     ])
     .then((data) => {
@@ -60,15 +65,12 @@ inquirer
             `
 # ${data.title}
 
-## ${data.description}
+#### ${data.license}
 
-An in-depth paragraph about your project and overview of use.
+## Description of the project:
+### ${data.description}
 
-## Getting Started
-
-### Dependencies
-
-* ${data.dependancies}
+---
 
 ### Installing
 
@@ -76,35 +78,28 @@ An in-depth paragraph about your project and overview of use.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* ${data.execute}
 
- 
-code blocks for commands
+### Usage information
 
+* ${data.usage}
 
+### Test
 
-## Authors
-
-Contributors names and contact info
-
-${data.name}  
-[GitHub Profile](https://github.com/${data.github}) /n
-/br
-[Email me](mailto:${data.email})
+${data.test}
 
 ## License
 
 This project is licensed under the ${data.license}  - click the icon for more details.
 
+## Contributers
+
+${data.name} [GitHub Profile](https://github.com/${data.github}) I can be reached at [Email me](mailto:${data.email})
+
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [awesome-readme](https://github.com/Rufasa85/)
+
         `
 
         // .then((responses) => {
