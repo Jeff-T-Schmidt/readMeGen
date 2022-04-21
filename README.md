@@ -20,19 +20,22 @@
 
 ### Installing
 
-* Enter your installation instructions here.
+* You will need inquirer
+* You will need Node.js
 
 ### Executing program
 
-* Enter how to execute your program here.
+* To execute the program you need to open the integrated terminal
+* Then you need to enter 'node index.js'
+* Then you will be prompted with a series of questions that you will need to answer
 
 ### Usage information
 
-* Enter your usage instructions here.
+* Use this program to create a quick and professional looking readme file.
 
 ### Testing information
 
-Enter your testing information here.
+None.
 
 ### License
 
@@ -51,4 +54,6 @@ Jeff Schmidt
 
 * [awesome-readme](https://github.com/Rufasa85/)
 
+### Screenshot
+![image](https://user-images.githubusercontent.com/101135703/164563744-09f67e1c-9e67-4bfe-bce1-63eb9c3e371f.png)
         

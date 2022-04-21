@@ -1,7 +1,7 @@
 
 # ReadMe Generator
 
-####  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+####  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description of the project:
 ### To create a professional readme file.
@@ -20,23 +20,23 @@
 
 ### Installing
 
-* Enter your installation instructions here.
+* Enter installation instructions here
 
 ### Executing program
 
-* Enter how to execute your program here.
+* THis is how to execute the program.
 
 ### Usage information
 
-* Enter your usage information here.
+* enter usage information here
 
 ### Testing information
 
-Enter your testing instructions here.
+Testing instructions here
 
 ### License
 
-This project is licensed under the  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  - click the icon for more details.
+This project is licensed under the  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  - click the icon for more details.
 
 ### Contributers
 
