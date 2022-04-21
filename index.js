@@ -71,6 +71,16 @@ inquirer
 ### ${data.description}
 
 ---
+## **Table of Contents**
+1. [Installing](#installing)
+1. [Executing program](#executing-program)
+1. [Usage information](#usage-information)
+1. [Testing information](#testing-information)
+1. [License](#license)
+1. [Contributers](#contributers)
+1. [Questions](#questions)
+1. [Acknowledgments](#acknowledgments)
+
 
 ### Installing
 
@@ -84,19 +94,24 @@ inquirer
 
 * ${data.usage}
 
-### Test
+### Testing information
 
 ${data.test}
 
-## License
+### License
 
 This project is licensed under the ${data.license}  - click the icon for more details.
 
-## Contributers
+### Contributers
 
-${data.name} [GitHub Profile](https://github.com/${data.github}) I can be reached at [Email me](mailto:${data.email})
+${data.name} 
 
-## Acknowledgments
+### Questions
+
+* Contact me with any questions at [GitHub Profile](https://github.com/${data.github})
+* I can be reached at [Email](mailto:${data.email})
+
+### Acknowledgments
 
 * [awesome-readme](https://github.com/Rufasa85/)
 
